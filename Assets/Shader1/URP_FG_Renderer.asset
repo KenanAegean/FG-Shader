@@ -36,6 +36,26 @@ MonoBehaviour:
   settings:
     material: {fileID: 2100000, guid: a3d487f57b01fa44eb211a1e232215a8, type: 2}
     passEvent: 1000
+--- !u!114 &-2984779159386141571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: FullScreenPassRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: 2100000, guid: 6e6bee92ab8f3074ab46eb4960f48a86, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,7 +86,8 @@ MonoBehaviour:
   - {fileID: -5802222322408598183}
   - {fileID: 2991547391564481628}
   - {fileID: -3888546527140436626}
-  m_RendererFeatureMap: 5955fe0c8a5d7aaf5c84f2b2801c84296e253735891b09ca
+  - {fileID: -2984779159386141571}
+  m_RendererFeatureMap: 5955fe0c8a5d7aaf5c84f2b2801c84296e253735891b09ca7dcccc272bef93d6
   m_UseNativeRenderPass: 0
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
